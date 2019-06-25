@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    background: #3498db;
+}
+
+.menu li {
+    padding: 8px 16px;
+}
+
+.menu li a {
+    color: #ffffff;
+}
+
+.menu li a:link {
+    text-decoration: none;
+}
+
+.menu li:hover {
+    background-color: #386a8b;
+}
+
+.has-submenu {
+    position: relative;
+}
+
+.has-submenu:hover .submenu {
+    display: block;
+}
+
+.submenu {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 100%;
+    background: #3498db;
+}
+
